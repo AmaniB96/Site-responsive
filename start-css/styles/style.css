@@ -26,8 +26,31 @@ nav{display: flex;
     gap:20px;
 }
 
-.sec1{
-    height: 30vh;
+.Sec1{
+    height: 60vh;
     width: 100vw;
     background-color: #dc3545;
+    display: flex;
+    align-items: center;
+}
+
+.sec1flex{
+    height: auto;
+    width: 100vw;
+}
+
+.Sec1Div1{
+    display: flex;
+    justify-content: center;
+}
+
+.Sec1Img{
+    height: 25vh;
+}
+
+.Sec1Div2{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
 }
