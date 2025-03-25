@@ -1,5 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poiret+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poiret+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:300;
+    font-style: normal;
+  }
+
+.lato-regular{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 *{margin: 0;
-     padding: 0;}
+  padding: 0;
+  overflow-x: hidden;}
+
+h1, h3{font-family: Montserrat;}
+
+p{font-family: Lato;
+}
 
 .secNav{width: 100vw;
         height: 80px;
@@ -12,18 +35,21 @@ nav{display: flex;
     height: 80px;}        
 
 .secNavDiv1{
-        width: 50vw;
+        width: 60vw;
         height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
+        font-weight: 800;
 }
 
 .secNavDiv2{
-    width: 50vw;
+    width: 40vw;
     height: auto;
     display: flex;
     gap:20px;
+    font-size: 13px;
+    font-weight: 600;
 }
 
 .Sec1{
@@ -37,6 +63,9 @@ nav{display: flex;
 .sec1flex{
     height: auto;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
 }
 
 .Sec1Div1{
