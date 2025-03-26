@@ -290,14 +290,11 @@ footer{
 #mobileMenu {
     display: flex;
     gap: 20px;
-    transition: max-height 0.3s ease-in-out;
+    transition: all 0.7s ease-in;
+    overflow: hidden;
 }
 
-#mobileMenu.show {
-    max-height: 200px;
-}
-
-@media (min-width: 600px) and (max-width:1024px){
+@media (min-width: 601px) and (max-width:1024px){
     
     .secNavDiv1{
         width: 50vw;
@@ -458,18 +455,13 @@ footer{
     }
 
     #mobileMenu {
-        display: none;
         flex-direction: column;
         align-items: center;
-        max-height: 0;
-        overflow: hidden;
+        max-height: 0; 
     }
 
-    #mobileMenu {
-        display: flex;
-        justify-content: end;
+    #mobileMenu.active {
+        max-height: 500px; 
     }
-
-    nav{justify-content: space-between;}
 
 }
