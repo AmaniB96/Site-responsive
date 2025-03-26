@@ -505,6 +505,21 @@ footer{
         width: auto;
     }
 
+    .footelements p{
+        height: 60px;
+        width: auto;
+    }
+
+    .footelements2 p{
+        height: 100%;
+        width: auto;
+    }
+
+    .footerImg{
+        height: 100%;
+        width: auto;
+    }
+
     .SecContact{
         height: auto;
     }
@@ -556,26 +571,5 @@ footer{
         flex-direction: column;
         align-items: center;
         max-height: 0; 
-    }
-
-    .footelements{
-        height: 100px;
-        width: auto;
-    }
-
-
-    .footelements p{
-        height: auto;
-        width: auto;
-    }
-
-    .footelements2 p{
-        height: auto;
-        width: auto;
-    }
-
-    .footerImg{
-        height: auto;
-        width: auto;
     }
 }
