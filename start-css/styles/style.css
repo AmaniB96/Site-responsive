@@ -72,6 +72,8 @@ nav{display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: auto;
+    padding-bottom: 60px;
 }
 
 .sec1flex{
@@ -100,7 +102,7 @@ nav{display: flex;
 
 .DivPortfolioImg {
     width: 66vw;
-    height: 60vh;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -114,6 +116,7 @@ nav{display: flex;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 15px;
+    height: auto;
 }
 
 .ImgPortolio{
@@ -122,9 +125,10 @@ nav{display: flex;
 }
 
 .sec3{ 
-    height: 50vh;
+    height: auto;
     width: 100vw;
     background-color: #dc3545;
+    padding-bottom: 80px;
 }
 
 .DivAbout{
@@ -275,43 +279,11 @@ footer{
 }
 
 
+
 @media (min-width: 600px) and (max-width:1024px){
     
     .secNavDiv1{
-        width: 60vw;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-weight: 800;
-}
-
-    .secNavDiv2{
-        width: 40vw;
-        height: auto;
-        display: flex;
-        gap:20px;
-        font-size: 13px;
-        font-weight: 600;
-}
-
-    .DivPortfolioImg {
-        width: 66vw;
-        height: 60vh;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .DivPortfolioImg img{
-        height: 25vh;
-    }
-   
-}
-
-@media (min-width: 320px) and (max-width:600px){
-    .secNavDiv1{
-        width: 40vw;
+        width: 50vw;
 }
 
     .sec2{
@@ -319,7 +291,103 @@ footer{
     }
 
     .secNavDiv2{
+        width: 50vw;
+    }
+
+    .sec3{
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .DivPortfolioImg {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .DivPortfolioImg img{
+        height: 13vh;
+    }
+
+    .TextDivAbout{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        margin-top: 10px;
+        width: 100vw;
+        height: auto;
+    }
+
+    .TextDivAbout p{
         width: 60vw;
+        font-size: 20px;
+    }
+
+    form{
+        width: 80vw;
+        height: auto;
+    }
+
+    footer{height: 50vh;}
+
+    .footersec1 h5{
+        font-size: 2.5vh;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .footersec1 p{
+        font-size: 1.5vh;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .footersec1{
+        flex-direction: column;
+        align-items: center;
+        gap:35px;
+        height: 40vh;
+    }
+
+    .footerImg{
+        height: auto;
+        overflow: hidden;
+    }
+
+    .footelements, .footelements2{
+        height: auto;
+        width: auto;
+    }
+
+    .SecContact{
+        height: auto;
+    }
+
+    .footersec2{
+        font-size: 1.2vh;
+    }
+}
+
+@media (max-width:600px){
+    .secNavDiv1{
+        width: 40vw;
+}
+
+    .sec2{
+        margin-bottom: 30px;
+        height: auto;
+    }
+
+    .secNavDiv2{
+        width: 60vw;
+    }
+
+    .sec3{
+        height: auto;
+        padding-bottom: 50px;
     }
 
     .DivPortfolioImg {
@@ -346,6 +414,7 @@ footer{
 
     form{
         width: 80vw;
+        height: auto;
     }
 
     footer{height: 50vh;}
@@ -363,6 +432,6 @@ footer{
     }
 
     .SecContact{
-        height: 80vh;
+        height: auto;
     }
 }
