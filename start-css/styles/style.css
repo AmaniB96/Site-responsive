@@ -495,8 +495,13 @@ footer{
         height: 40vh;
     }
 
-    .footelements, .footelements2{
+    .footelements{
         height: 45px;
+        width: auto;
+    }
+
+    .footelements2{
+        height: 150px;
         width: auto;
     }
 
