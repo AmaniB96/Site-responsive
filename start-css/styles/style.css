@@ -460,21 +460,37 @@ footer{
     }
 
     @keyframes bounce {
-        0%{transform: translateY(0%);}
-        75%{transform: translateY(200%) scaleY(0.5);}
-        100%{transform: translateY(0%) scaleY(1.1);}
+        0% { transform: translateY(0); }
+        50% { transform: translateY(10px); }
+        100% { transform: translateY(0); }
+    }
+
+    @keyframes glow {
+        from {
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+        }
+        to {
+            text-shadow: 0 0 20px #fff, 0 0 30px #4dffd5, 0 0 40px #4dffd5, 0 0 50px #4dffd5, 0 0 60px #4dffd5, 0 0 70px #4dffd5, 0 0 80px #4dffd5;
+        }
         }
 
-    .burger-menu {
-        display: block;
-        margin-right: 35px;
-        animation: fadeIn 0.7s ease-in-out forwards;
-      
-    }
-
-    .burger-menu:hover{
-        animation: bounce 1.5s ease infinite;
-    }
+        .burger-menu {
+            display: block;
+            position:absolute;
+            right:20px;
+            top:20px;
+            width: 30px;
+            height: 40px;
+            animation: 
+                fadeIn 0.7s ease-in-out forwards,
+                glow 1s ease infinite;
+        }
+        
+        .burger-menu:hover {
+            animation: 
+                glow 1s ease infinite,
+                bounce 1s ease-in-out infinite;
+        }
 
 
     #mobileMenu {
