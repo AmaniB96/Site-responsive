@@ -454,6 +454,7 @@ footer{
 
     .burger-menu {
         display: block;
+        margin-right: 15px;
     }
 
     #mobileMenu {
@@ -464,7 +465,11 @@ footer{
         overflow: hidden;
     }
 
-    #mobileMenu.show {
+    #mobileMenu {
         display: flex;
+        justify-content: end;
     }
+
+    nav{justify-content: space-between;}
+
 }
