@@ -492,7 +492,7 @@ footer{
         flex-direction: column;
         align-items: center;
         gap:15px;
-        height: 40vh;
+        height: 50vh;
     }
 
     .footelements{
@@ -500,24 +500,41 @@ footer{
         width: auto;
     }
 
+    .footelements h5{
+        height: 80px;
+        width: auto;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
     .footelements2{
-        height: 150px;
+        height: 160px;
         width: auto;
     }
 
-    .footelements p{
+    .footelements2 h5{
         height: 60px;
+        width: auto;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .footelements p{
+        height: 100px;
         width: auto;
     }
 
     .footelements2 p{
-        height: 100%;
+        height: 150px;
         width: auto;
+        margin-top: 20px;
     }
 
     .footerImg{
         height: 100%;
         width: auto;
+        margin-bottom: 0;
+        padding-bottom: 0;
     }
 
     .SecContact{
