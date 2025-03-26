@@ -262,6 +262,10 @@ footer{
     
 }
 
+.footelements2 p span{
+    color: #25b29f;
+}
+
 .h5elements{
     display: flex;
     flex-direction: column;
