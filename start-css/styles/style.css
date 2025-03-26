@@ -255,6 +255,7 @@ footer{
     justify-content: center;
 }
 
+
 .footelements2{
     height: 200px;
     display: flex;
@@ -423,6 +424,20 @@ footer{
     .footersec2{
         font-size: 1.2vh;
     }
+    .footelements p{
+        height: auto;
+        width: auto;
+    }
+
+    .footelements2 p{
+        height: auto;
+        width: auto;
+    }
+
+    .footerImg{
+        height: auto;
+        width: auto;
+    }
 }
 
 @media (max-width:600px){
@@ -538,5 +553,18 @@ footer{
         max-height: 0; 
     }
 
+    .footelements p{
+        height: auto;
+        width: auto;
+    }
 
+    .footelements2 p{
+        height: auto;
+        width: auto;
+    }
+
+    .footerImg{
+        height: auto;
+        width: auto;
+    }
 }
