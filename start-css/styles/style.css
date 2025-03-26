@@ -120,3 +120,76 @@ nav{display: flex;
     margin:10px;
     border-radius: 5px;
 }
+
+.sec3{ 
+    height: 50vh;
+    width: 100vw;
+    background-color: #dc3545;
+}
+
+.DivAbout{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.TextDivAbout{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+    margin-top: 30px;
+    line-height: 1.5;
+}
+
+.SecContact h3{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.SecContact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    margin-bottom: 55px;
+    height: 95vh;
+}
+
+form{
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #838e94;
+}
+
+form input, textarea{
+    width: 65vh;
+    border:none;
+    border-bottom: rgba(128, 128, 128, 0.145) solid 1px;
+}
+
+textarea{
+    height: 20vh;
+    resize: none;
+}
+
+
+.footersec1{
+    background-color: #2c3e50;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Montserrat;
+}
+
+.footersec1 h5{
+   font-weight: 700;
+}
+
+.footersec2{
+    background-color:#1a252f;
+    color: white;
+    text-align: center;
+}
+
