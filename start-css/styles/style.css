@@ -486,7 +486,7 @@ footer{
         height: auto;
     }
 
-    footer{height: 65vh;}
+    footer{height: 55vh;}
 
     .footersec1{
         flex-direction: column;
@@ -496,7 +496,7 @@ footer{
     }
 
     .footelements, .footelements2{
-        height: auto;
+        height: 45px;
         width: auto;
     }
 
@@ -552,6 +552,12 @@ footer{
         align-items: center;
         max-height: 0; 
     }
+
+    .footelements{
+        height: 100px;
+        width: auto;
+    }
+
 
     .footelements p{
         height: auto;
