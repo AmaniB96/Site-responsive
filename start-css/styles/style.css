@@ -285,8 +285,7 @@ footer{
     color: white;
     font-size: 24px;
     cursor: pointer;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+   
 }
 
 #mobileMenu {
@@ -460,15 +459,29 @@ footer{
         }
     }
 
+    @keyframes bounce {
+        0%{transform: translateY(0%);}
+        75%{transform: translateY(200%) scaleY(0.5);}
+        100%{transform: translateY(0%) scaleY(1.1);}
+        }
+
     .burger-menu {
         display: block;
         margin-right: 35px;
         animation: fadeIn 0.7s ease-in-out forwards;
+      
     }
+
+    .burger-menu:hover{
+        animation: bounce 1.5s ease infinite;
+    }
+
 
     #mobileMenu {
         flex-direction: column;
         align-items: center;
         max-height: 0; 
     }
+
+
 }
